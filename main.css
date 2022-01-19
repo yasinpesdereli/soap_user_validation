@@ -1,0 +1,204 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	margin-top: -50px;
+	position: relative;
+	background-color: #04aa6d;
+	height: 100px;
+	width: auto;
+}
+.header h1{
+	text-align: center;
+	margin-top: 50px;
+}
+.logreg-form{
+	margin-top: 40px;
+	margin-left: calc(50% - 100px);
+	
+}
+.logreg-form p{
+	width: 200px;
+	margin-top: 10px;
+}
+.logreg-form span{
+	width: 200px;
+	margin-top: 10px;
+}
+.logreg-form button{
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 25px;
+}
+.main-area {
+	background-color: #04aa6d;
+	height: 700px;
+	margin-top: -16px;
+	margin-right: -8px;
+	margin-left: 170px;
+}
+.info-area {
+	padding: 40px 40px 40px 40px;
+}
+.topnav {
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: rgb(87, 87, 87);
+	overflow: hidden;
+	border-radius: 10px 10px 0 0;
+}
+.topnav2 {
+	background-color: rgb(87, 87, 87);
+	overflow: hidden;
+	margin-top: -10px;
+	height: 65px;
+	margin-left: 170px;
+	margin-right: -8px;
+}
+.sidebar h3 {
+	position: absolute;
+	display: block;
+	margin-top: -30px;
+	text-align: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a,
+.topnav2 a {
+	float: right;
+	color: #04aa6d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover,
+.topnav2 a:hover {
+	background-color: rgb(150, 28, 103);
+	color: rgb(255, 239, 253);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active,
+.topnav2 a.active {
+	background-color: #aa4f04;
+	color: white;
+}
+.pagename {
+	padding-left: 20px;
+	float: left;
+	color: #fff;
+}
+
+.sidebar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 180px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: rgb(87, 87, 87); /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidebar a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	width: 170px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+	color: #f1f1f1;
+}
+.sidebar-items {
+	margin-top: 50px;
+}
+.sidebar-items p {
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: small;
+}
+
+/* Style page content */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
+}
+.footer {
+	height: 20px;
+	text-align: center;
+	margin-left: 170px;
+}
+
+.data-table {
+	width: 100%;
+}
+.data-table th {
+	height: 30px;
+}
+.data-table,
+tr {
+	background-color: white;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.data-table td {
+	text-align: center;
+	height: 60px;
+}
+.functions button{
+	color: white;
+	width: 80px;
+	border: white;
+	border-radius: 5px;
+	height: 25px;
+}
+
+
+.edit-btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(252, 74, 74);
+}
+.edit-btn:hover{
+	background-color: white;
+	color: rgb(252, 74, 74);
+	
+	border: 2px solid rgb(252, 74, 74);
+}
+
+.remove-btn {
+	background-color: rgb(0, 174, 255);
+	margin-bottom: 10px;
+}
+.remove-btn:hover{
+	background-color: white;
+	color: rgb(0, 174, 255);
+	
+	border:2px solid rgb(0, 174, 255);
+}
+
+.add-user p, .edit-user p{
+	width: 150px;
+}
+.edit-user input:hover{
+	background-color: #ff1a09;
+	color: white;
+	border-radius: 5px;
+	border: #f1f1f1;
+}
